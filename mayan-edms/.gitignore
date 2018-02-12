@@ -1,0 +1,5 @@
+backup/data/*
+stack_dms-mayanedms/data/*
+stack_dms-mysql/.docker/mysql/import/*
+stack_dms-mysql/.docker/mysql/logs/*
+stack_dms-mysql/data/*

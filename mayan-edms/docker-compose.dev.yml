@@ -1,0 +1,32 @@
+version: '2'
+services:
+
+  stack_dms-mayanedms:
+    container_name: stack_dms-mayanedms
+    image: mayanedms/mayanedms:2.7.3
+    labels:
+      - "stack=mayan-edms"
+      - "container=mayanedms"
+    env_file: stack.dev.env
+    ports:
+     - 80:80
+    links:
+      - stack_dms-mysql:mysql
+    volumes:
+      - ./stack_dms-mayanedms/data:/var/lib/mayan/document_storage
+
+  stack_dms-mysql:
+    container_name: stack_dms-mysql
+    image: mysql:8
+    labels:
+      - "stack=mayan-edms"
+      - "container=mysql"
+    env_file: stack.dev.env
+    mem_limit: 1073741824     # 1 GiB
+    memswap_limit: 1073741824 # 1 GiB
+    mem_swappiness: 0
+    volumes:
+      - ./stack_dms-mysql/data:/var/lib/mysql
+      - ./stack_dms-mysql/.docker/mysql/logs:/var/log/mysql
+      - ./stack_dms-mysql/.docker/mysql/import:/docker-entrypoint-initdb.d
+      - ./stack_dms-mysql/.docker/scripts/backup.sh:/backup.sh:ro
