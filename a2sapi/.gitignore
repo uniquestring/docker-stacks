@@ -1,0 +1,2 @@
+/stack_a2sapi-a2sapi/.docker/a2sapi/conf/*.conf
+/stack_a2sapi-nginx/.docker/nginx/html/swagger.yaml

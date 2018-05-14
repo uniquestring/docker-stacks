@@ -1,0 +1,30 @@
+{
+  "logConfig": {
+    "enableAppLogging": false,
+    "enableSteamLogging": false,
+    "enableWebLogging": false,
+    "maxLogFilesize": 5120,
+    "maxLogCount": 5
+  },
+  "steamConfig": {
+    "timedMasterServerQuery": true,
+    "steamWebAPIKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "useWebServerList": true,
+    "gameForTimedMasterQuery": "CSGO",
+    "timeBetweenMasterQueries": 120,
+    "maxHostsToReceive": 4000
+  },
+  "webConfig": {
+    "allowDirectUserQueries": false,
+    "apiWebPort": 40080,
+    "apiWebTimeout": 7,
+    "compressResponses": false,
+    "maxHostsPerAPIQuery": 12
+  },
+  "debugConfig": {
+    "debugMessages": false,
+    "dumpServers": false,
+    "useServerDumpAsMaster": false,
+    "serverDumpFilename": "serverdump.json"
+  }
+}

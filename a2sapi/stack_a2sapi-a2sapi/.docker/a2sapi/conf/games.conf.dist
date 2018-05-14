@@ -1,0 +1,102 @@
+{
+  "games": [
+    {
+      "name": "AlienSwarm",
+      "appID": 630,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "ARMA3",
+      "appID": 107410,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "ARKSurvivalEvolved",
+      "appID": 346110,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "CSGO",
+      "appID": 730,
+      "ignoreRules": true,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "CSSource",
+      "appID": 240,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "DayZ",
+      "appID": 221100,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "GarrysMod",
+      "appID": 4000,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "HL2DM",
+      "appID": 320,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "L4D2",
+      "appID": 550,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "OpposingForce",
+      "appID": 50,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "QuakeLive",
+      "appID": 282440,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "Reflex",
+      "appID": 328070,
+      "ignoreRules": true,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "Rust",
+      "appID": 252490,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    },
+    {
+      "name": "TF2",
+      "appID": 440,
+      "ignoreRules": false,
+      "ignorePlayers": false,
+      "ignoreInfo": false
+    }
+  ]
+}
